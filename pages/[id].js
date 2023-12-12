@@ -19,7 +19,7 @@ export async function getStaticPaths() {
 export default function Entry( {item} ) {
   return (
     <Layout>
-      <article className="presidentInfo">
+      <article className="postArticle">
         <h2>{item.post_title}</h2>
         <p>Date: {item.post_date}</p>
         {item.post_content}
